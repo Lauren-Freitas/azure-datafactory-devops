@@ -30,13 +30,13 @@ Publicação de artefatos automáticos (datasets, pipelines, linked services).
 ## 🖼️ Prints do Projeto
 
 ### 🔧 Configuração no Azure Data Factory
-![Configuração Git no ADF](imagens/configuracao_git_adf.png)
+![01_adf_git_configuration](https://github.com/user-attachments/assets/59ad54a6-5264-4590-b0fc-58717d49db26)
 
 ### 📂 Estrutura de Repositório no Azure DevOps
-![Arquivos no Azure DevOps](imagens/estrutura_devops_repositorio.png)
+![02_azuredevops_repositorio](https://github.com/user-attachments/assets/4ad54c93-82bc-4fdc-907c-c35811574650)
 
 ### 🌿 Controle de Branches no ADF
-![Branches no ADF](imagens/controle_branches_adf.png)
+![03_adf_branches](https://github.com/user-attachments/assets/78bef449-4595-41c5-9da8-b9a841168dc7)
 
 📚 Aprendizados
 Conectar Azure Data Factory ao Azure DevOps.

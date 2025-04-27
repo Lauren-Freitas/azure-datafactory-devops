@@ -1,47 +1,55 @@
 # azure-datafactory-devops
 
-🔗 Projeto: Integração do Azure Data Factory com Azure DevOps
-Este projeto mostra como configurar a integração entre o Azure Data Factory e o Azure DevOps para realizar o versionamento e o controle de mudanças de pipelines e outros artefatos de dados.
+🔄 Projeto: Integração do Azure Data Factory com Azure DevOps
+Este repositório documenta a configuração do controle de versionamento e backup automático de artefatos do Azure Data Factory usando Azure DevOps.
 
 📌 Objetivo
-Configurar o Azure Data Factory para usar o repositório do Azure DevOps como fonte de controle de versão, garantindo governança, rastreabilidade e segurança no desenvolvimento de fluxos de dados.
+Implementar a integração entre o Azure Data Factory (ADF) e o Azure DevOps para permitir:
 
-⚙️ Ferramentas Utilizadas
-Azure Data Factory
+Controle de versão dos pipelines, datasets e linked services.
 
-Azure DevOps
+Histórico de alterações.
 
-Repositório Git
+Organização do desenvolvimento com branches.
 
-Branch principal (BRANCH) e branch de publicação (adf_publish)
+Preparação do ambiente para automações de CI/CD no futuro.
 
-🛠️ Etapas Realizadas
-Criação da organização e projeto no Azure DevOps.
+⚙️ Principais Configurações Realizadas
+Criação de um repositório no Azure DevOps (Dio-Project-Lauren).
 
-Criação de um repositório Git privado.
+Definição de branches:
 
-Conexão do Azure Data Factory ao repositório via "Git Configuration".
+branch (desenvolvimento)
 
-Definição das branches de colaboração e publicação.
+adf_publish (publicação).
 
-Publicação dos artefatos no DevOps.
+Conexão do ADF ao repositório Git via "Git Configuration".
 
-🖼️ Prints do Processo
-🔧 Configurando o Git no Azure Data Factory
+Publicação de artefatos automáticos (datasets, pipelines, linked services).
 
-📂 Visualizando os arquivos versionados no Azure DevOps
+## 🖼️ Prints do Projeto
 
-🌿 Gerenciamento de branches
+### 🔧 Configuração no Azure Data Factory
+![Configuração Git no ADF](imagens/configuracao_git_adf.png)
+
+### 📂 Estrutura de Repositório no Azure DevOps
+![Arquivos no Azure DevOps](imagens/estrutura_devops_repositorio.png)
+
+### 🌿 Controle de Branches no ADF
+![Branches no ADF](imagens/controle_branches_adf.png)
 
 📚 Aprendizados
-Conectar o Azure Data Factory a um repositório Git do Azure DevOps.
+Conectar Azure Data Factory ao Azure DevOps.
 
-Trabalhar com versionamento de pipelines e datasets.
+Criar e gerenciar branches de colaboração e publicação.
 
-Entender a separação entre ambiente de desenvolvimento (branch) e publicação (adf_publish).
+Versionar e visualizar alterações de artefatos diretamente pelo Git.
 
-Dar os primeiros passos para uma futura implementação de CI/CD no Azure.
+Melhorar a governança e rastreabilidade de projetos de dados.
 
 👩‍💻 Sobre mim
-Me chamo Lauren Freitas, estou em transição de carreira para a área de tecnologia, estudando Análise e Desenvolvimento de Sistemas.
-Tenho interesse especial por nuvem, dados e automação, e venho desenvolvendo projetos práticos para colocar em prática o que estou aprendendo.
+Me chamo Lauren Freitas, sou comissária de bordo em transição para a área de tecnologia.
+Atualmente estudo Análise e Desenvolvimento de Sistemas e estou aprendendo sobre dados, automação e nuvem.
+
+
+✨ Projeto desenvolvido como parte do bootcamp DIO – Azure Data Fundamentals.
